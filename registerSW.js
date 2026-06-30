@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/otto-app-new/sw.js', { scope: '/otto-app-new/' })})}
